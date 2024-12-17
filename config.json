@@ -1,0 +1,21 @@
+{
+    "path": {
+        "cached_dir": "caches",
+        "dataset_dir": "dataset",
+        "output_dir": "output"
+    },
+    "parameters": {
+        "calculation_threshold": 1e-5,
+        "max_calculation_iteration": 200,
+        "trustrank_bias_amount": 1,
+        "max_summarize_length": 20
+    },
+    "options": {
+        "use_pagerank_library": false,
+        "output_graph": true,
+        "show_graph": false
+    },
+    "target_data_key": [
+        "target_key"
+    ]
+}
