@@ -12,7 +12,7 @@ This Python project is designed for **text processing**, focusing on the computa
 - [Configuration](#configuration)
 - [Dataset Structure](#dataset-structure)
 - [Usage](#usage)
-- [Sample Output](#sample-output)
+- [Output](#output)
 - [Workflow Overview](#workflow-overview)
 - [Project Directory Structure](#project-directory-structure)
 - [License](#license)
@@ -22,11 +22,11 @@ This Python project is designed for **text processing**, focusing on the computa
 
 1. Ensure that Python (version 3.6 or later) and pip are installed on your system.
 
-<!-- TODO: Add link -->
-2. Clone the repository and navigate to the directory:
+
+2. Clone the repository and navigate to the directory.
 ```bash
-git clone https://github.com/RJTPP/[repo_name]
-cd [repo_name]
+git clone https://github.com/RJTPP/PageRank-TrustRank-Calculation
+cd PageRank-TrustRank-Calculation
 ```
 
 3. Run the setup script. This will create a virtual environment and install the required dependencies.
@@ -47,12 +47,12 @@ source venv/bin/activate
 6. Add your dataset to the `dataset/` directory. 
    - Ensure the dataset is in JSON format and contains the structure specified in the [Dataset Structure](#dataset-structure) section.
 
-7. Run the main script. Optional arguments can be provided. See [Options](#options) for details.
+7. Run the main script. Optional arguments can be provided (optional). See [Options](#options) section for details.
 ```bash
 python3 main.py [OPTIONS]
 ```
 
-8. View the results in the `output/` directory. See [Sample Output](#sample-output) for an example.
+8. View the results in the `output/` directory. See [Output](#output) section for an example.
 
 
 > [!NOTE]
@@ -76,11 +76,10 @@ This project was developed using Python 3.6 and is tested to be compatible with 
 
 ## Installation
 
-<!-- TODO: Add link -->
-1. Clone the repository.
+1. Clone the repository and navigate to the directory.
 ```bash
-git clone https://github.com/RJTPP/[repo_name]
-cd [repo_name]
+git clone https://github.com/RJTPP/PageRank-TrustRank-Calculation
+cd PageRank-TrustRank-Calculation
 ```
 
 2. Run `setup.py`,This will create a virtual environment and install the required dependencies.
