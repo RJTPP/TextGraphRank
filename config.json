@@ -16,6 +16,6 @@
         "show_graph": false
     },
     "target_data_key": [
-        "target_key"
+        "full_text"
     ]
 }
