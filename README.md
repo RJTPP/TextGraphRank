@@ -24,8 +24,8 @@ This Python project is designed for **text processing**, focusing on the computa
 
 2. Clone the repository and navigate to the directory:
 ```bash
-git clone https://github.com/RJTPP/PageRank-TrustRank-Calculation.git
-cd PageRank-TrustRank-Calculation
+git clone https://github.com/RJTPP/TextGraphRank.git
+cd TextGraphRank
 ```
 
 3. Run the setup script. This will create a virtual environment and install the required dependencies.
@@ -82,8 +82,8 @@ This project was developed using Python 3.6 and is tested to be compatible with 
 
 1. Clone the repository.
 ```bash
-git clone https://github.com/RJTPP/PageRank-TrustRank-Calculation.git
-cd PageRank-TrustRank-Calculation
+git clone https://github.com/RJTPP/TextGraphRank.git
+cd TextGraphRank
 ```
 
 2. Run `setup.py`,This will create a virtual environment and install the required dependencies.
