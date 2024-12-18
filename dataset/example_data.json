@@ -1,0 +1,18 @@
+[
+    {
+        "id"  : "001",
+        "data": {
+            "full_text" : "This is a sample text.",
+            "author"    : "author_name",
+            "date"      : "2024-01-01"
+        }
+    },
+    {
+        "id"  : "002",
+        "data": {
+            "full_text" : "This is another sample text.",
+            "author"    : "another_author_name",
+            "date"      : "2024-01-02"
+        }
+    }
+]
