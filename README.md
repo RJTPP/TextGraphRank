@@ -22,10 +22,9 @@ This Python project is designed for **text processing**, focusing on the computa
 
 1. Ensure that Python (version 3.6 or later) and pip are installed on your system.
 
-
-2. Clone the repository and navigate to the directory.
+2. Clone the repository and navigate to the directory:
 ```bash
-git clone https://github.com/RJTPP/PageRank-TrustRank-Calculation
+git clone https://github.com/RJTPP/PageRank-TrustRank-Calculation.git
 cd PageRank-TrustRank-Calculation
 ```
 
@@ -35,8 +34,13 @@ python3 setup.py
 ```
 
 4. Activate the virtual environment.
+ - For Linux/macOS
 ```bash
 source venv/bin/activate
+```
+- For Windows
+```bash
+venv\Scripts\activate
 ```
 
 5. Configure the project by editing `config.json`
@@ -52,7 +56,7 @@ source venv/bin/activate
 python3 main.py [OPTIONS]
 ```
 
-8. View the results in the `output/` directory. See [Output](#output) section for an example.
+1. View the results in the `output/` directory. See [Output](#output) section for an example.
 
 
 > [!NOTE]
@@ -76,9 +80,9 @@ This project was developed using Python 3.6 and is tested to be compatible with 
 
 ## Installation
 
-1. Clone the repository and navigate to the directory.
+1. Clone the repository.
 ```bash
-git clone https://github.com/RJTPP/PageRank-TrustRank-Calculation
+git clone https://github.com/RJTPP/PageRank-TrustRank-Calculation.git
 cd PageRank-TrustRank-Calculation
 ```
 
@@ -97,8 +101,13 @@ python3 -m venv venv
 ```
 
 2. Activate the virtual environment.
+ - For Linux/macOS
 ```bash
 source venv/bin/activate
+```
+- For Windows
+```bash
+venv\Scripts\activate
 ```
 
 3. Upgrade `pip`.
@@ -210,8 +219,13 @@ To execute the project, follow these steps:
 
 ### 2. Activate the virtual environment:
 
+ - For Linux/macOS
 ```bash
 source venv/bin/activate
+```
+- For Windows
+```bash
+venv\Scripts\activate
 ```
 
 ### 3.	Run the Main Script:
