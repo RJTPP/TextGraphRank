@@ -24,7 +24,7 @@ This Python project is designed for **text processing**, focusing on the computa
 
 2. Clone the repository and navigate to the directory:
 ```bash
-git clone https://github.com/RJTPP/TextGraphRank.git
+git clone https://github.com/RJTPP/TextGraphRank.git &&
 cd TextGraphRank
 ```
 
@@ -82,7 +82,7 @@ This project was developed using Python 3.6 and is tested to be compatible with 
 
 1. Clone the repository.
 ```bash
-git clone https://github.com/RJTPP/TextGraphRank.git
+git clone https://github.com/RJTPP/TextGraphRank.git &&
 cd TextGraphRank
 ```
 
