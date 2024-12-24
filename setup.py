@@ -62,14 +62,6 @@ def create_dataset_folder(folder="dataset"):
     print(f"Ensuring dataset folder exists: {folder}")
     os.makedirs(folder, exist_ok=True)
 
-def create_validation_folder(folder="dataset"):
-    """Ensure the validation folder exists."""
-    print(f"Ensuring validation folder exists: {folder}")
-    os.makedirs(folder, exist_ok=True)
-    with open(os.path.join(folder, "validation.json"), "w") as f:
-        f.write("{\n}")
-
-
 def run_python_script(script_path, venv_dir="venv"):
     """Run a Python script in the virtual environment."""
     python_executable = os.path.join(venv_dir, "Scripts" if os.name == "nt" else "bin", "python")
@@ -85,7 +77,6 @@ if __name__ == "__main__":
     upgrade_pip(venv_dir)
     install_requirements(requirements_file, venv_dir)
     create_dataset_folder()
-    create_validation_folder()
     print("Setup completed!")
     print()
     run_python_script("verify_path.py")
