@@ -77,13 +77,3 @@ class MultipleTimer():
     def __repr__(self) -> None:
         return str(self.get_all_time())
 
-
-# if __name__ == "__main__":
-#     import time
-#     t = MultipleTimer(["t1", "t2", "t3"])
-#     time.sleep(1)
-#     print(t)
-
-#     t.restart_all()
-#     time.sleep(1)
-#     print(t.get_all_time())

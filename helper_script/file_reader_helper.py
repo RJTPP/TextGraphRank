@@ -28,5 +28,3 @@ def write_to_file(path: str, content: str = None, overwrite: bool = False):
     with open(path, "w") as f:
         f.write(content)
 
-# if __name__ == "__main__":
-#     write_to_cache("testfolder/test.txt", "test")

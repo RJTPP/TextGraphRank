@@ -163,37 +163,3 @@ def compare_pagerank(score1: Dict[any, float], score2: Dict[any, float]) -> floa
 
     return (sum_diff / node_count)**0.5
 
-        
-if __name__ == "__main__":
-    edges = [
-        ("a", "b", 4),
-        ("a", "c", 1),
-        ("b", "c", 2),
-        ("c", "a", 1),
-        ("b", "d", 1),
-    ]
-
-    g = WeightedWordDiGraph()
-    g.add_edge_from_list(edges)
-    print(g)
-    # print(g.nodes)
-    # print(g.edges)
-
-    print("Pagerank")
-    inverse_pagerank_scores_cs = g.get_inverse_pagerank()
-    print(f"Sum: {sum([score for _, score in inverse_pagerank_scores_cs.items()])}")
-    print(get_sorted_rank_score(inverse_pagerank_scores_cs))
-
-    ng = nx.DiGraph()
-    ng.add_weighted_edges_from(edges)
-    reversed_ng = nx.reverse(ng)
-    inverse_pagerank_scores_nx = dict(nx.pagerank(reversed_ng))
-    print(get_sorted_rank_score(inverse_pagerank_scores_nx))
-
-    print(f"Diff: {compare_pagerank(inverse_pagerank_scores_cs, inverse_pagerank_scores_nx)*100:.8f}%")
-
-    print("\nTrust Rank")
-    trust_rank_scores = g.get_trust_rank(1, inverse_pagerank_scores_nx)
-    print(f"Sum: {sum([score for _, score in trust_rank_scores.items()])}")
-    print(get_sorted_rank_score(trust_rank_scores))
-

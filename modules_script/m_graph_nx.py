@@ -53,12 +53,3 @@ def test_graph(size=100) -> None:
     plot_graph(word_graph, node_size=1500, weighted=True)
     print(word_graph.edges)
 
-if __name__ == "__main__":
-    test_graph(40)
-    # g = nx.DiGraph()
-    # g.add_edge("a", "b")
-    # g.add_edge("a", "c")
-    # g.add_edge("a", "d")
-    # g.add_edge("a", "f")
-    
-    # print(inverse_pagerank(g))

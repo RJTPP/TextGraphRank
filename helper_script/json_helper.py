@@ -57,7 +57,3 @@ def get_from_nested_key(data: Union[dict, str], keys: List[str], throw_key_error
             return default
     return value
 
-# if __name__ == '__main__':
-#     a = {"a": 1, "b": 2, "c": 4}
-#     write_json('test.json', a, indent=2)
-#     print(read_json('test.json'))

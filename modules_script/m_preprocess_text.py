@@ -113,10 +113,3 @@ def preprocess_text(text: str, tokenizer=tokenize_split) -> List[str]:
     words = remove_stopwords(words)
 
     return words
-
-if __name__ == "__main__":
-    text = "I'll b there 2nd day. Acc to u, is it OK? I acc idk"
-    words = preprocess_text(text)
-    print()
-    print("Preprocessed text:")
-    print(words)

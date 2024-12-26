@@ -100,25 +100,3 @@ def get_all_words(bigrams_list: List[Tuple[str, str]]) -> List[str]:
         collection.add(word1)
         collection.add(word2)
     return list(collection)
-
-if __name__ == "__main__":
-    # tweet_json_file_to_bigrams("dataset/Itaewon_tragedy.json")
-    # d = [
-    #     [
-    #         ("a", "b"),
-    #         ("c", "d"),
-    #         ("e", "f")
-    #     ],
-    #     [
-    #         ("a", "b"),
-    #         ("c", "d"),
-    #         ("e", "g")
-    #     ]
-    # ]
-    # print(d)
-    # m = merge_multiple_bigrams_list(d)
-    # m = bigrams_to_weighted_bigrams(m)
-    # print(m)
-    # print(sorted(m))
-
-    print(pair_word_to_bigram(["Hi", "how", "are", "you"]))
