@@ -1,6 +1,6 @@
 # Text Processing for PageRank and TrustRank Calculation
 
-[![Python 3.6+](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.6+](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This Python project is designed for **text processing**, focusing on the computation of PageRank and TrustRank scores from a dataset in JSON format using graph-based techniques. 
